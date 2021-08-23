@@ -1,0 +1,27 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="1" y1="1" x2="1" x1="0" id="svg_7">
+   <stop stop-opacity="0.992188" stop-color="#ce3300" offset="0"/>
+   <stop stop-opacity="0.992188" stop-color="#ce3300" offset="0.792969"/>
+  </linearGradient>
+  <linearGradient y2="1" y1="1" x2="1" x1="1" id="svg_8">
+   <stop stop-opacity="0.996094" stop-color="#ce3300" offset="0"/>
+   <stop stop-opacity="0.992188" stop-color="#ce3300" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <circle id="svg_3" r="256" fill="url(#svg_7)" cy="256" cx="256"/>
+  <path id="svg_4" fill="url(#svg_8)" d="m256,468.236481c-117.630997,0 -213.33334,-95.702393 -213.33334,-213.333344c0,-117.631454 95.702343,-213.333309 213.33334,-213.333309c117.6362,0 213.333344,95.701855 213.333344,213.333309c0,117.630951 -95.697144,213.333344 -213.333344,213.333344z"/>
+  <rect y="239.870132" x="239.870132" width="48.259735" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -95.8701324 623.8701172)" opacity="0.3" id="XMLID_107_" height="240"/>
+  <rect y="144.000259" x="239.870132" width="48.259735" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -0.0002667 528.0002441)" opacity="0.3" id="XMLID_106_" height="240"/>
+  <rect y="48.129597" x="239.870407" width="48.259201" transform="matrix(6.123234e-17 -1 1 6.123234e-17 95.8703995 432.1296082)" opacity="0.3" id="XMLID_105_" height="240"/>
+  <rect y="231.870132" x="231.870132" width="48.259735" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -95.8701324 607.8701172)" id="XMLID_183_" height="240" fill="#FFFFFF"/>
+  <rect y="136.000259" x="231.870132" width="48.259735" transform="matrix(6.123234e-17 -1 1 6.123234e-17 -0.0002667 512.0002441)" id="XMLID_184_" height="240" fill="#FFFFFF"/>
+  <rect y="40.129597" x="231.870407" width="48.259201" transform="matrix(6.123234e-17 -1 1 6.123234e-17 95.8703995 416.1296082)" id="XMLID_190_" height="240" fill="#FFFFFF"/>
+ </g>
+</svg>

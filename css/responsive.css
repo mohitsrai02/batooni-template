@@ -1,0 +1,162 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+ 
+ 
+/*==========  Mobile First Method  ==========*/
+ @media only screen and (min-width: 980px) and (max-width: 1280px) { 
+ .campaign-about {
+    position: relative;
+}
+.campaign-text-about {
+    position: absolute;
+    bottom: 232px;
+    left: -15px !important;
+    background-color: #FE3A00;
+    padding: 12px;
+
+}
+.menuzord-brand img {
+  /* max-height: 52px; */
+     margin-left: -30px;
+}
+/* campaign 4*/
+.campaign-video {
+    position: relative;
+}
+.campaign-text-video {
+    position: absolute;
+    bottom: -400px;
+    left: 30px;
+    background-color: #FE3A00;
+    padding: 15px;
+}
+/* campaign 5*/
+.col-md-12.campaign {
+    position: relative;
+}
+.campaign-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background-color: #FE3A00;
+    padding: 15px;
+}
+/* campaign end*/
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.campaign-text-slider {
+    display:none;
+}
+.campaign-text-about{
+    display:none;
+}
+.campaign-text {
+    display:none;
+}
+.campaign-cta {
+    position: absolute;
+    bottom: 70px;
+    left: 310px;
+    color: #fff;
+    padding: 15px;
+}
+.campaign-text-video {
+    position: absolute;
+    bottom: 2px;
+    left: 46px;
+    background-color: #FE3A00;
+    padding: 6px;
+} 
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.menuzord-brand img {
+  /* max-height: 52px; */
+     margin-left: 0px;
+}
+.campaign-text-slider {
+    display:none;
+}
+.campaign-text-about{
+    display:none;
+}
+.campaign-text {
+    display:none;
+}
+.campaign-cta {
+    position: absolute;
+    bottom: 70px;
+    left: 320px;
+    color: #fff;
+    padding: 15px;
+}
+.campaign-text-video {
+    position: absolute;
+    bottom: 2px;
+    left: 46px;
+    background-color: #FE3A00;
+    padding: 6px;
+} 
+
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+.menuzord-brand img {
+  /* max-height: 52px; */
+     margin-left: 0px;
+}
+.campaign-text2{
+	position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background-color: #FE3A00;
+    padding: 15px;
+	display:block;
+	
+}	
+.campaign-text-slider {
+    display:none;
+}
+.campaign-text-about{
+    display:none;
+}
+.campaign-cta {
+    position: absolute;
+    bottom: 58px;
+    left: 110px;
+    color: #fff;
+    padding: 15px;
+}
+.campaign-text-video {
+    position: absolute;
+    bottom: 2px;
+    left: 60px;
+    background-color: #FE3A00;
+    padding: 6px;
+}
+.campaign-text-mobile{
+    display:none;
+}
+.campaign-text {
+    display:none;
+} 
+.campaign-text1{
+	position: absolute;
+	bottom: 6px;
+    left: 3px;
+	display:block;
+	
+}
+.campaign-text3{
+	display:none;
+}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 319px) {
+}

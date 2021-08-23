@@ -1,0 +1,569 @@
+body{
+  font-family: 'Andale Mono';
+  z-index: 2;
+  }  
+  .sidenav{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  .sidenav a{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover{
+    color: #f1f1f1;
+    transition: 0.2s;
+    -webkit-filter: drop-shadow(0px 3px 3px #222);
+    filter: drop-shadow(0px 3px 3px #222);
+  }
+  .sidenav .closebtn{
+    position: absolute;
+    -webkit-filter: drop-shadow(0px 3px 3px #222);
+    filter: drop-shadow(0px 3px 3px #222);
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    border: none;
+    transition: 0.2s;
+  }
+  #main{
+    transition: margin-left 0.5s;
+    padding: 16px;
+  }
+  @media screen and (max-height: 450px){
+    .sidenav{padding-top: 15px;}
+    .sidenav a{font-size: 18px;}
+  } 
+  #demo{
+    transition: 0.3s;
+    margin-left: 30%;
+  }
+  .lgtxt{
+    margin-left: 2.8%;
+    color: white;
+    font-size: 0.8em;
+  }
+ .reff{
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 0.8em;
+  padding-left: 300px;
+  margin: 0;
+}
+ .next{
+  text-decoration: none;
+  display: block;
+  color: black;
+  font-size: 0.8em;
+  padding-left: 300px;
+  margin: 0;
+ }
+ .reff:hover{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  transition: 0.2s;
+ }
+ .next:hover{
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+ }
+
+#aboutbg{
+
+  background-image: url("../images/aboutbg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#fastbg{
+  
+  background-image: url("../images/fastgrow.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.redbg{
+  background-color: red;
+}
+body #homebg{
+  
+  background-color: red;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+}
+#formbg{
+  background-image: url("../images/form.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#tvbg{
+  background-image: url("../images/tvbg.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#faqbg{
+  background-image: url("../images/faqbg.jpg");
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 1200px){
+  #formbg{
+    background-image: none;
+    background-color: red;
+  }
+}
+.container p{
+  color: white;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: right;
+}
+
+.adver{
+  max-width:200px;
+  padding-top: 10%;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+}
+.adv{
+  max-width:200px;
+  padding-top: 10%;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+  bottom: 15%;
+  right: 16px;
+  font-size: 18px;
+  position: absolute;
+}
+@media screen and (max-width: 1200px){
+  .adv{
+    position: relative;
+  }
+} 
+.subs
+	{
+    margin-top: 90%;
+    max-width: 400px;
+    z-index: 1;
+    height: auto;
+  }
+  .btxt{
+    font-weight: bold;
+    font-size: 1em;
+  }
+  .txtr{
+    text-decoration: none!important;
+    color: red;
+  }
+  .txtr:hover{
+    color: red;
+    font-weight: bold;
+  }
+  .fastimg{
+    float: right;
+  }
+
+    .find{
+    text-decoration: none;
+    color: black;
+  }
+  .find:hover{
+    font-weight: bold;
+    color: black;
+    transition: 0.2s;
+  }
+  .text1{
+    max-width: 50%;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 0.9fr 1.1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: ". . . . title title . . . ." "text text text . title title . . . ." "text text text that-is title title . . . ." "text text text . title title ad ad ad ad" ". . . . title title . . . .";
+  }
+  
+  .text {
+    grid-area: text;
+    color: white;
+    font-family: 'Coda', cursive;
+    text-align: right;
+  }
+  
+  .that-is { 
+    grid-area: that-is;
+    color: white;
+    font-family: 'Coda', cursive;
+    text-align: center;
+   }
+  
+  .title {
+    margin-top: 25%;
+    grid-area: title;
+    font-size: 5.5em;
+    line-height: 85%;
+    font-family: 'Coda', cursive;
+    color: white;
+
+   }
+  
+  .ad {
+    grid-area: ad;
+    -webkit-filter: drop-shadow(0px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px #222);
+    max-width: 200px;
+    min-width: 140px;
+    margin-bottom: 0px;
+   }
+   
+  .formarea{
+    padding-top: 3%;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+   .grid-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "form-head form-head form-head form-head form-head form-head form-head form-head" "form-head form-head form-head form-head form-head form-head form-head form-head" "form-start form-start form-start form-start form-start form-start . ." "form-start form-start form-start form-start form-start form-start . ." "form-start form-start form-start form-start form-start form-start . ." "form-start form-start form-start form-start form-start form-start . ." "submit-btn . . . . . . .";
+  }
+  
+  .form-head {
+    
+    -webkit-filter: drop-shadow(0px 5px 5px #222);
+    filter: drop-shadow(0px 5px 5px #222);
+     grid-area: form-head;
+     color: white;
+    line-height: 80%;
+     font-size: 4.5em;
+    }
+  
+  .form-start { 
+    grid-area: form-start;
+    padding-top: 5%;
+   }
+  
+  .submit-btn { 
+    grid-area: submit-btn;
+ }
+form input,textarea{
+  font-family: 'Andale Mono';
+  width: 75%;
+  height: 20px;
+  margin: 0.5%;
+  resize: vertical;
+}
+.btnsubmit{
+  text-decoration: none;
+  background:none;
+  border:none;
+  padding:0;
+}
+.btnsubmit img{
+  max-height: 40px;
+  opacity: 1;
+}
+.btnsubmit:hover{
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+  transition: 0.2s;
+  opacity: 0.6;
+}
+.btnsubmit:active{
+  border: 1px solid rgba(0, 0, 0, 0.664);
+}
+.tv-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 0.7fr 0.7fr 0.6fr 0.5fr 0.7fr 0.6fr;
+  grid-template-areas: ". . Save-Money Save-Money . . ." "better-result better-result better-result better-result image image image" "better-result better-result better-result better-result image image image" "details details details details image image image" "details details details details image image image" "details details details details image image image" "details details details details image image image";
+  padding-top: 10%;
+}
+
+.Save-Money { 
+  grid-area: Save-Money;
+  text-align: right;
+  font-weight: BOLD;
+ }
+
+.better-result {
+  grid-area: better-result;
+  text-align: right;
+  font-size: 4em;
+  line-height: 80%;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-filter: drop-shadow(0px 3px 3px #222);
+  filter: drop-shadow(0px 3px 3px #222);
+  }
+
+.details { 
+  grid-area: details;
+  text-align: right;
+  padding-left: 25%;
+  padding-top: 5%;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+ }
+
+.image { 
+  grid-area: image;
+  text-align: right;
+ }
+ .tvimg{
+   max-height: 400px;
+ }
+ .adtv{
+  position: absolute;
+  max-width:250px;
+  padding-top: 10%;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+  bottom: 20%;
+  left: 80%;
+  font-size: 18px;
+  position: absolute;
+}
+@media screen and (max-width: 992px){
+  .adtv{
+    position: relative;
+  }
+} 
+.admon{
+  position: absolute;
+  max-width:250px;
+  padding-top: 10%;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+  bottom: 12%;
+  left: 80%;
+  font-size: 18px;
+  position: absolute;
+}
+@media screen and (max-width: 992px){
+  .admon{
+    position: relative;
+  }
+} 
+
+.faqtitle{
+  float: right;
+  text-align: right;
+  padding-right: 35%;
+  padding-top: 3%;
+  padding-bottom: 1%;
+  color: white;
+  font-size: 5em;
+  grid-area: better-result;
+  text-align: right;
+  font-size: 4em;
+  line-height: 80%;
+  font-family: 'Roboto Condensed', sans-serif;
+  -webkit-filter: drop-shadow(0px 3px 3px #222);
+  filter: drop-shadow(0px 3px 3px #222);
+}
+.faqa{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1em;
+  white-space: nowrap;
+  text-align: center;
+  cursor: pointer;
+}
+.faqopt{
+  margin-left: 500px
+}
+.faqa:hover{
+  color:black;
+  -webkit-filter: drop-shadow(0px 5px 5px #222);
+  filter: drop-shadow(0px 5px 5px #222);
+  transition: 0.2s;
+}
+.faqa:active{
+  color: white;
+  -webkit-filter: drop-shadow(0px 3px 3px #222);
+  filter: drop-shadow(0px 3px 3px #222);
+}
+.search{
+  margin-top: 10%;
+}
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+#custom-search-input {
+    margin:0;
+    padding: 0;
+    text-align: center;
+    max-width: 400px;
+}
+ 
+#custom-search-input .search-query {
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    height: 30px;
+    border-radius: 15px;
+}
+ 
+#custom-search-input button {
+    border: 0;
+    background: none;
+    /** belows styles are working good */
+    padding: 2px 5px;
+    margin-top: 2px;
+    position: absolute;
+    right:0;
+    /* IE7-8 doesn't have border-radius, so don't indent the padding */
+    margin-bottom: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color:#D9230F;
+    cursor: unset;
+    z-index: 2;
+}
+.input-group{
+  padding-top: 15%;
+}
+ 
+.search-query:focus{
+    z-index: 0;   
+    color: red;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+
+
+
+#basic {
+  display: block;
+}
+#adview,#setting,#recharge{
+  display: none;
+}
+
+i{
+  color: red;
+  font-weight: bold;
+  font-size: 0.5em;
+}
+.panel-title{
+  font-size: 1em;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.panel-title a{
+  text-decoration: none;
+  color: gray;
+  
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.panel-title a:hover{
+  -webkit-filter: drop-shadow(0px 3px 3px #222);
+  filter: drop-shadow(0px 3px 3px #222);
+}
+.social{
+  padding-top: 45%;
+  word-wrap: unset;
+  white-space: nowrap;
+
+}
+.fa2{
+  border: none!important;
+  display: inline!important;
+  padding: 5px!important;
+  margin: 0px!important;
+  margin-left: 16px!important;
+}
+.sborder{
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+.reff{
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 0.8em;
+  padding-left: 300px;
+  margin: 0;
+}
+ .next{
+  text-decoration: none;
+  display: block;
+  color: white;
+  font-size: 0.8em;
+  padding-left: 300px;
+  margin: 0;
+ }
+ .reff:hover{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.2s;
+ }
+ .next:hover{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.2s;
+ }
+  #demo{
+    transition: 0.3s;
+    margin-left: 30%;
+  }
